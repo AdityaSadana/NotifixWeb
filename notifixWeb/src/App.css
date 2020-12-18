@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color:rgba(150,150,150,0.2);
+}
+
+input:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}

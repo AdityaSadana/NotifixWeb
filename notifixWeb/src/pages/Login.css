@@ -1,0 +1,48 @@
+.login {
+    padding-left: 45%;
+    padding-top: 5%;
+    background-color: white;
+    height: 100vh;
+}
+
+.login_logo {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.comment {
+    display: flex;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: -10%;
+}
+
+.login_form input {
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.login_form button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+.login_switch {
+    display: flex;
+    margin-left: -5%;
+    margin-top: 20px;
+}
+
+.login_switch p {
+    margin-right: 10px;
+}

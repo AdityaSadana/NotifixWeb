@@ -1,0 +1,42 @@
+#fileinput {
+    display: none;
+}
+
+.createpost {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 10%;
+}
+
+.createpost input {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline: none;
+    height: 20px;
+}
+
+.createpost label {
+    margin-bottom: 10px;
+    width: 85px;
+    height: 25px;
+    background: rgba(51,150,250);
+    padding: 5px;
+}
+
+.input_image {
+    display: none;
+    height: 350px;
+    width: 500px;
+}
+
+.createpost button {
+    width: 100px;
+    height: 35px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
